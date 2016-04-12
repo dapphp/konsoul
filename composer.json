@@ -1,0 +1,22 @@
+{
+    "name": "dapphp/konsoul",
+    "description": "A library for rapidly developing console applications",
+    "type": "library",
+    "require": {
+        "php": ">5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Drew Phillips",
+            "email": "drew@drew-phillips.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Dapphp\\Konsoul\\": "src/" }
+    }
+}
+
